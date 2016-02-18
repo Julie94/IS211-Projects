@@ -1,0 +1,65 @@
+a{
+text-decoration: none;
+}
+/*Geenral*/
+#wrapper {
+max-width:940px;
+margin: 0 auto;
+padding: 0 5%;
+}
+/**********************HEADING*****************************/
+#logo{
+  text-align:center;
+  margin:0;
+}
+h1{
+  font-family:'Change One', cursive;
+  margin:15px 0;
+  font-size: 1.75em;
+  font-weight:normal;
+  line-height: 0.08em;
+}
+h2{
+  font-size:0.75em;
+  margin:-5px 0;
+  font-weight:normal;
+}
+
+
+/*************************NAVIGATION************************/
+nav{
+  text-align: center;
+  padding: 10px 0;
+  margin:20px 0 0;
+}
+/***************************FOOTER**************************/
+footer{
+  font-size:0.75em;
+  text-align: center;
+  padding-top: 50px;
+  color: #ccc;
+}
+/***************************COLORS**************************/
+body{
+  background-color:#999;
+}
+header{
+  background-color:#599a6a;
+  border-color:#599a6a;
+
+}
+nav{
+  background:#599a6a;
+}
+h1, h2 {
+  color:#fff;
+}
+a{
+  color:#599868;
+}
+nav a, nav a:visited{
+  color:#fff;
+}
+nav a.selected, nav a:hover;{
+  color:#32673f;
+}
